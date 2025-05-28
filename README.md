@@ -1,1 +1,4 @@
-# Sarcasm--Detection
+In the digital age, understanding the intent behind text is becoming increasingly important, especially on platforms like social media and news outlets, where sarcasm is often used. This project aims to detect sarcasm in headlines using Natural Language Processing (NLP) techniques and a Machine Learning classification model.
+The core idea is to build a model that can distinguish between sarcastic and non-sarcastic headlines. To achieve this, the system processes a dataset of labeled headlines, cleans and vectorizes the text using TF-IDF, and then trains a Logistic Regression classifier to learn patterns associated with sarcasm.
+Once trained, the model can analyze new headlines and predict whether the content is sarcastic or genuine. The output includes evaluation metrics such as accuracy, precision, recall, and F1-score to assess the model’s performance.
+This project demonstrates a practical application of NLP in real-world problems like sentiment analysis, fake news detection, and automated content moderation.
